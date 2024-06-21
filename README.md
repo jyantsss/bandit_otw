@@ -306,3 +306,20 @@ step 9: continue this process:
 - continue the process until ascii type file comes
 
 step 10: cat to get the password.
+## Level 13-14 login
+
+**Commands** **Used**:  ls, cat, ssh login using private key
+
+**Password**: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+ **New command used**: ssh -i sshkey.private bandit14@localhost -p 2220
+
+**Process**:  
+
+step1:  ls
+
+step2:  login to level 14 using private ssh key without being exit from the level 13. 
+
+command used:  ssh -i sshkey.private bandit14@localhost -p 2220
+
+step 3: now cat /etc/bandit_pass/bandit14 to get the pw. 
