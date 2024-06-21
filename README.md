@@ -600,3 +600,40 @@ step6: now display all the input combinations using command “
 cat list.txt”
 
 step7: now brute force using this command “cat list.txt | nc localhost 30002” then the pw will be displayed.
+# Level 25-26
+
+## password:
+
+s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
+
+New commands learned:
+
+- more
+- -v
+- :set shell?: gives the name of current shell you are in
+- :set shell=shell_name
+- 
+
+## Process:
+
+step1: ls
+
+step2: use the private ssh key file to login. You will be logged in but it will exit you with popup mssg 
+
+step3: if you want to see the script that is making you exit use the command “cat /etc/passwd | grep bandit26”. This command is used to see all the users and it is filtered out to see only bandit26 user.
+
+step4: Now you will get the path of shell script. now to read it use the command “cat /user/bin/showtext”
+
+step5: Research about “more” command.
+
+step6: Now you are well known of more command. So moving forward, we will minimize the terminal as small as possible and again try to login using sshkey. 
+
+step7: now bandit26 will not appear clearly and you will see the text”more random%”. 
+
+step8: now type “-v”. this will open the editor in the shell. 
+
+step9: use the command “:set shell?” to know in which shell you are.
+
+step10: “:set shell=/bin/bash” to go to bandit 26
+
+step11: run” :shell” command to enter bandit26.
