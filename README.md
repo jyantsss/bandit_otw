@@ -711,3 +711,18 @@ step3: Now, check for the branches using command “git branch”
 step4: to see all the branches use “git branch -a”
 
 step5: move through each branches and read the [readme.md](http://readme.md) file to get the pw.
+# Level 30-31
+
+## Password:
+
+fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+
+## Process:
+
+step1: clone the git repo
+
+step2: go through all the branches and commits and read the readme file.
+
+step3: If step2 not working, then use “ git tag” 
+
+step4: use the command “git show secret” to see if pw is there.
