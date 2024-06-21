@@ -81,7 +81,29 @@ Note:  file name with spaces cannot be read directly using command only using ca
 
  **realpath .** : shows the path of current location
 
+## Level 4-5 login
 
+**Commands** **Used**:  ls, cat, file
+
+**Password**: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+**New Command Learned**: 
+
+ **file**: shows the type of a file
+
+
+
+**Process**:  
+
+step1: cd inhere
+
+step2:  ls -alps
+
+step3:  file ./* : to read the type of all files
+
+step4:  cat the ASCII type of file
+
+Note: “file *”:*  cant directly access the file whose name starts with “-”. So, we use command “file ./*”.
 
 **Process**:  
 
