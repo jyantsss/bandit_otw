@@ -26,3 +26,19 @@
 **New Command Learned**:  **ssh** :used to securely log into a remote machine and execute commands on that machine. The basic syntax of the command is “ssh user@host”
 
 **Password**:  bandit0
+## Level 0-1 login
+
+**Commands** **Used**:  cat, ls
+
+**New Command Learned**:  
+
+File:  `determine file type` 
+
+du( disk usage):  `estimate file space usage`
+
+**Password**: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+Process:  step1: Use ls to see the files in home directory
+
+step2:  Use cat to read the file  readme to get the pw.
+
