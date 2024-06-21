@@ -236,3 +236,19 @@ cat data.txt | base64 --decode
 or
 
 base64 -d data.txt
+
+## Level 11-12 login
+
+**Commands** **Used**:  ls, cat
+
+**Password**: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+
+
+**Process**:  
+
+step1:  ls
+
+step2:  cat data.txt 
+
+step3:  rot13 means every character is rotated by 13. Use any rot13 conversion website like [https://rot13.com/](https://rot13.com/)  to convert it and get the password. 
