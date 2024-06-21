@@ -41,4 +41,17 @@ du( disk usage):  `estimate file space usage`
 Process:  step1: Use ls to see the files in home directory
 
 step2:  Use cat to read the file  readme to get the pw.
+## Level 1-2 login
+
+**Commands** **Used**:  cat, ls
+
+**Password**: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+**Process**:  
+
+step1: Use ls to see the files in home directory
+
+step2:  Use cat to read the file  - to get the pw.
+
+Note: - named file cannot be read directly using command “cat -”. So, we use “cat ./-” or “cat /home/bandit1/-”.
 
