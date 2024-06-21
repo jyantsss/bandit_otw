@@ -134,3 +134,24 @@ step1: Use ls to see the files in home directory
 step2:  use ls -a to see the hidden files stored in inhere directory
 
 step3: use cat “filename” to read the file.
+
+## Level 6-7 login
+
+**Commands** **Used**:  ls, find
+
+**Password**: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+**New Command Learned**: 
+
+find  -size 1033c -user username -group groupname
+
+
+
+**Process**:  
+
+step1:  cd / to go to root directory
+
+step2:  use find command to find the file with given criteria
+
+step3:  many files with permission denied or no such file will appear except one with .password
+
