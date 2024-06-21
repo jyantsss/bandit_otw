@@ -105,7 +105,29 @@ step4:  cat the ASCII type of file
 
 Note: “file *”:*  cant directly access the file whose name starts with “-”. So, we use command “file ./*”.
 
+  
+
+## Level 5-6 login
+
+**Commands** **Used**:  ls, file./*, find
+
+**Password**: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+**New Command Learned**: 
+
+find  -size 1033c -readable ! -executable
+
+
+
 **Process**:  
+
+step1:  cd inhere
+
+step2:  use find command and use the given criteria of file to find that exact file in inhere directory
+
+step3: cat the found file
+
+Note: when bunch of file and folders are given then use the find command to search a file with given criteria.
 
 step1: Use ls to see the files in home directory
 
