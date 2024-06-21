@@ -458,3 +458,32 @@ step1:  ls after logging in
 step2: use “./bandit20-do” command to move forward
 
 step3:  read the pw using command “./bandit20-do cat /etc/bandit_pass/bandit20”
+## Level 20-21 login
+
+**Commands** **Used**:  ls, nc -lvp
+
+**Password**:  EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+ **New command used**: 
+
+- nc -lvp port_number: establish a connection with the [localhost](http://localhost)
+
+(l: listen
+
+v: (verbose): used to establish connection properly
+
+p: local port number)
+
+**Process**: 
+
+step1:  ls (”suconnect” will appear)
+
+step2:  use the command ./suconnect. note: 
+
+This program will connect to the given port on localhost using TCP. If it receives the correct password from the other side, the next password is transmitted back.
+
+step3: now open another terminal and login to level20
+
+step4: In the second terminal use the command “nc -lvp portnumber” to establish a connection 
+
+step5: send the pw of current level to get the next level pw.
