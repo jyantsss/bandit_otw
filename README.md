@@ -415,7 +415,29 @@ step4: copy and paste this rsa key inside a file of tmp directory.
 step5: try to login to level 18 using command ssh -i filename [bandit17@localhost](mailto:bandit17@localhost) -p ssl_working_port_number
 
 step6: here permission will be denied. now check the what kind of authority user have using command: ls -l filename
+## Level 17-18-19 login
 
+**Commands** **Used**:   diff
+
+**Password**:  x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+ **New command used**:  diff filename1 filename2(it gives the text that is different in both file)
+
+**Process**:  
+
+step1:  ls after logging in
+
+step2:  diff
+
+step3: now, when we try to login, we are automatically logged out.
+
+step4: we know that the pw is inside readme file so use this command “ssh  [bandit18@bandit.labs.overthewire.org](mailto:bandit18@bandit.labs.overthewire.org) -p 2220 cat readme”
+
+note: you will get the pw for level 19
+
+pw for 19: 
+
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 step 7: give user execute access( chmod 700 filename)
 
 step7: now try to login to level 17 again
