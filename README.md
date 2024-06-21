@@ -55,3 +55,16 @@ step2:  Use cat to read the file  - to get the pw.
 
 Note: - named file cannot be read directly using command “cat -”. So, we use “cat ./-” or “cat /home/bandit1/-”.
 
+## Level 2-3 login
+
+**Commands** **Used**:  cat, ls
+
+**Password**: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+**Process**:  
+
+step1: Use ls to see the files in home directory
+
+step2:  Use cat to read the file  spaces in this filename to get the pw.
+
+Note:  file name with spaces cannot be read directly using command only using cat filename . So, we use “cat  “filename”” or “cat filename1\ filename2\ filename3”. here “\ “ acts as a space.
