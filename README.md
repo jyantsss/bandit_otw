@@ -341,3 +341,16 @@ step1:  telnet [localhost](http://localhost) 30000
 step2:  give the pw of current level to get the pw of next level.
 
 //add ss here
+## Level 15-16 login
+
+**Commands** **Used**:  openssl
+
+**Password**: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+ **New command used**: openssl s_client -connect localhost:30001( openssl: makes secure connection for ssl, s-client instructs to create a connection as a client)
+
+**Process**:  
+
+step1:  connect to the [localhost](http://localhost) 30001 using openssl command given above.
+
+step2:  give the pw of current level to get the pw of next level.
