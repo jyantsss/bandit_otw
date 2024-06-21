@@ -252,3 +252,57 @@ step1:  ls
 step2:  cat data.txt 
 
 step3:  rot13 means every character is rotated by 13. Use any rot13 conversion website like [https://rot13.com/](https://rot13.com/)  to convert it and get the password. 
+## Level 12-13 login
+
+**Commands** **Used**:  ls, cat,  mkdir, cp, mv, xxd, file, tar, gzip. bzip2
+
+**Password**: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+ **New Command Learned**: 
+
+cp: cp ~/data.txt .
+
+~ represents the home directory and last “.” means copy here.
+
+mv : mv n1 n1.gz ( n1: current filename, n1.gz filename or format we want to change n1 to)
+
+xxd: xxd -r data.txt n1 
+
+(explanation see in explainshell.com)
+
+bzip2: bzip2 -d n1.bz2 (-d: decompress)
+
+gzip: gzip -d n1.gz
+
+tar: tar -xf filename (-x: extract, f: file) this command is used to extract the file from archieved file.
+
+**Process**:  
+
+step1:  cd /tmp
+
+step2:  mkdir newfoldername
+
+step3:  move to new folder
+
+step4: cp ~/data.txt
+
+step5: cat data.txt which is in hexform
+
+step6: use xxd to reverse the hex file into binary form into a new file 
+
+step7:  see the type of n1
+
+step8: rename it in the format of its type( if the file type is gzip compressed then rename it to n1.gz to decompress it)
+
+step9: decompress it using gzip.
+
+step 9: continue this process: 
+
+- check the file type
+- rename it
+- decompress it
+- when tar types come, it represents archieved file
+- rename it and use tar command
+- continue the process until ascii type file comes
+
+step 10: cat to get the password.
