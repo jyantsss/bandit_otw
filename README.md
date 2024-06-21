@@ -441,3 +441,20 @@ cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 step 7: give user execute access( chmod 700 filename)
 
 step7: now try to login to level 17 again
+## Level 19-20 login
+
+**Commands** **Used**:  ls, cat
+
+**Password**:  0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+ **New command used**: 
+
+- ./bandit20-do: this helps to run a command as another user.
+
+**Process**:  
+
+step1:  ls after logging in
+
+step2: use “./bandit20-do” command to move forward
+
+step3:  read the pw using command “./bandit20-do cat /etc/bandit_pass/bandit20”
