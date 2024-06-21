@@ -510,3 +510,20 @@ cat /usr/bin/cronjob_bandit22.sh”
 step4: the script shows the location of file where pw is located. Now read the file using command “
 
 cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv” to get the pw.
+# **Level 22-23**
+
+command used: ls, cat
+
+password: 
+
+0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+
+Process:
+
+step1: read the shell script in cronjob_bandit23 as in previous level.
+
+step2: The script shows that pw is stored in /tmp/$mytarget file. “$mytarget”  filename is obtained by running this command “
+
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1”  which gives password like value and is the filename inside /tmp/ where pw is stored.
+
+step3: now cat /tmp/value_obtained_by running_previous_command to get the pw.
