@@ -487,3 +487,26 @@ step3: now open another terminal and login to level20
 step4: In the second terminal use the command “nc -lvp portnumber” to establish a connection 
 
 step5: send the pw of current level to get the next level pw.
+# Level 21-22
+
+## Commands Used
+
+ls, cat,
+
+## Password:
+
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+
+## Process:
+
+step1: ls /etc/cron.d/
+
+step2:  now read the file cronjon_bandit22 using cat command “cat /etc/cron.d/cronjob_bandit22”
+
+step3: now see the location of .sh file which includes the bash script.  then read that sh file using command “
+
+cat /usr/bin/cronjob_bandit22.sh”
+
+step4: the script shows the location of file where pw is located. Now read the file using command “
+
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv” to get the pw.
