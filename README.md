@@ -191,3 +191,22 @@ uniq -u filename: gives the line which occurs only once but here repeating data 
 step1:  ls
 
 step2:  cant use uniq -u filename directly because data in file isnot in ascending order. So, first we use sort then its output is transferred to uniq command.
+## Level 9-10 login
+
+**Commands** **Used**:  ls, strings, grep
+
+**Password**: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+**New Command Learned**: 
+
+strings filename: this helps to give the text from a file which is human readable
+
+
+
+**Process**:  
+
+step1:  ls
+
+step2:  get the output from strings data.txt and then supply it to grep “=” to get the password.
+
+strings data.txt | grep "=”
