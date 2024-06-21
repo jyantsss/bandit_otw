@@ -726,3 +726,34 @@ step2: go through all the branches and commits and read the readme file.
 step3: If step2 not working, then use “ git tag” 
 
 step4: use the command “git show secret” to see if pw is there.
+# Level 31-32
+
+## Password:
+
+3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+
+## Process:
+
+You are suppose to push a file in a repo mentioned in this level.
+
+step1:  read the [readme.md](http://readme.md) file in git repo
+
+step2: make a file using “touch key.txt”
+
+step3: write the content in file as mentioned in readme file using command “nano key.txt”
+
+step4: cat the file you made.
+
+step5: git add key.txt. you will get an error due to .gitignore file.
+
+step6: ls -la to see the .gitignore file
+
+step7: rm .gitignore
+
+step8: ls -la to see if it exist or not.
+
+step9:  git add key.txt
+
+step10: “git push” 
+
+step11: pushing will be failed but you will get the pw in the response message.
