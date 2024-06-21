@@ -68,3 +68,25 @@ step1: Use ls to see the files in home directory
 step2:  Use cat to read the file  spaces in this filename to get the pw.
 
 Note:  file name with spaces cannot be read directly using command only using cat filename . So, we use “cat  “filename”” or “cat filename1\ filename2\ filename3”. here “\ “ acts as a space.
+
+## Level 3-4 login
+
+**Commands** **Used**:  cat, ls -a
+
+**Password**: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+**New Command Learned**: 
+
+ **ls -a** : shows the hidden file
+
+ **realpath .** : shows the path of current location
+
+
+
+**Process**:  
+
+step1: Use ls to see the files in home directory
+
+step2:  use ls -a to see the hidden files stored in inhere directory
+
+step3: use cat “filename” to read the file.
