@@ -675,3 +675,22 @@ step5: cd repo
 step6: ls
 
 step7: cat [README.md](http://README.md) to get the pw.
+# Level 28-29
+
+## Password:
+
+4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
+
+## Process:
+
+step1: clone the git repo as in previous level. use this command “
+
+git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo”
+
+step2:  try to read the readme file. 
+
+step6: you will not get the pw there.
+
+step7: check the versions using “git log”
+
+step8: now try to move through all commits using the command “git checkout commit_hashvalue” then read the readme file. You will get the pw for next level in any one of them.
