@@ -210,3 +210,29 @@ step1:  ls
 step2:  get the output from strings data.txt and then supply it to grep “=” to get the password.
 
 strings data.txt | grep "=”
+
+## Level 10-11 login
+
+**Commands** **Used**:  ls, cat, base64
+
+**Password**: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+**New Command Learned**: 
+
+base64: it is a form of decoding. It is always in a format of margin with “=” or “==” at the right end .
+
+
+
+**Process**:  
+
+step1:  ls
+
+step2:  cat data.txt whose result shows that the data is bade64 encoded.
+
+step3: now use the command base 64 to decode the pw.
+
+cat data.txt | base64 --decode
+
+or
+
+base64 -d data.txt
