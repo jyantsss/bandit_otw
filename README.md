@@ -757,3 +757,31 @@ step9:  git add key.txt
 step10: “git push” 
 
 step11: pushing will be failed but you will get the pw in the response message.
+# Level 32-33
+
+## Password:
+
+tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
+
+visit “bourne shell mannual at duckduckgo.com” to know how this level works.
+
+## Process:
+
+step1:  login to level 33. you will get an uppercase shell which will translate each of your command in uppercase and display “not a command” or “persmission  denied”. 
+
+step2: type “$0” to access the normal shell
+
+step3: use “/bin/bash” to enter level 33
+
+step4: “cat /etc/bandit_pass/bandit33” to get the password.
+
+# Congratulationssss! You completed Over the wire bandit games 🥳🙌
+
+# Some useful commands:
+
+### 1. -alps
+
+- `a`: All files are being presented (even if they start if a dot)
+- `l`: The files are being presented in a listing format
+- `p`: A slash (/) is being appended to all directories
+- `s`: The size of each file is being shown
