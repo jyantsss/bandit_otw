@@ -172,3 +172,22 @@ grep “millionth” data.txt
 step1:  ls
 
 step2:  use grep command to find the data in line which contains the word millionth
+## Level 8-9 login
+
+**Commands** **Used**:  ls, sort. uniq
+
+**Password**: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+**New Command Learned**: 
+
+sort filename: It arrange file data in ascending order.
+
+uniq -u filename: gives the line which occurs only once but here repeating data should be in adjacent.
+
+
+
+**Process**:  
+
+step1:  ls
+
+step2:  cant use uniq -u filename directly because data in file isnot in ascending order. So, first we use sort then its output is transferred to uniq command.
