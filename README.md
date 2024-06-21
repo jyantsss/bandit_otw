@@ -323,3 +323,21 @@ step2:  login to level 14 using private ssh key without being exit from the leve
 command used:  ssh -i sshkey.private bandit14@localhost -p 2220
 
 step 3: now cat /etc/bandit_pass/bandit14 to get the pw. 
+
+## Level 14-15 login
+
+**Commands** **Used**:  ls, cat, telnet, nc
+
+**Password**: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+ **New command used**: telnet [localhost](http://localhost) 30000 (create the connection with localhost through port 30000)
+
+nc [localhost](http://localhost) 30000
+
+**Process**:  
+
+step1:  telnet [localhost](http://localhost) 30000
+
+step2:  give the pw of current level to get the pw of next level.
+
+//add ss here
