@@ -652,3 +652,26 @@ step2: ./bandit27-do
 step3: now run command as bandit user 27 “
 
 ./bandit27-do cat /etc/bandit_pass/bandit27” to get the pw.
+# Level 27-28
+
+## Password:
+
+Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
+
+## Process:
+
+step1: make a directory inside /tmp where you want to clone the git repo
+
+step2: move to that directory
+
+step3: use this command to clone the repo “
+
+git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo”. Dont forget to specify the port number. And give the pw of current level.
+
+step4: ls
+
+step5: cd repo
+
+step6: ls
+
+step7: cat [README.md](http://README.md) to get the pw.
