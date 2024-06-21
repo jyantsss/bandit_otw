@@ -694,3 +694,20 @@ step6: you will not get the pw there.
 step7: check the versions using “git log”
 
 step8: now try to move through all commits using the command “git checkout commit_hashvalue” then read the readme file. You will get the pw for next level in any one of them.
+# Level 29-30
+
+## Password:
+
+qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
+
+## Process:
+
+step1: clone the git repo as in previous level. make the directory first then clone there. 
+
+step2: try reading the readme file in each commit as in previous level.
+
+step3: Now, check for the branches using command “git branch” 
+
+step4: to see all the branches use “git branch -a”
+
+step5: move through each branches and read the [readme.md](http://readme.md) file to get the pw.
