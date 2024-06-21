@@ -527,3 +527,40 @@ step2: The script shows that pw is stored in /tmp/$mytarget file. “$mytarget�
 echo I am user bandit23 | md5sum | cut -d ' ' -f 1”  which gives password like value and is the filename inside /tmp/ where pw is stored.
 
 step3: now cat /tmp/value_obtained_by running_previous_command to get the pw.
+# level 23-24
+
+password: 
+
+gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
+
+Process:
+
+step1: read the script file in cronjob_bandit24 as done in previous level.
+
+(Note: in the script, a loop is implemented through all files even if it is hidden.
+
+inside the do statement if files are not hidden files , then owner is checked. If the owner is bandit23 then all files are executed for 60 sec then process is terminated using “-s”. finally the file is deleted.)
+
+step2: Now make your own script. create folders /tmp/myscript using command “
+
+mkdir /tmp/myscript”
+
+step4: navigate to the folder. Now make [myyscript.sh](http://myyscript.sh) and pw.txt file inside myscript folder.
+
+step5: nano [myscript.sh](http://myscript.sh) and write the script “
+
+#!/bin/bash
+
+cat /etc/bandit_pass/bandit24 > /tmp/myscript/pw.txt”
+
+this is store the pw into pw.txt file.
+
+step6: “ls -la” inside myscript folder.
+
+step7: change the permission using “chmod 777 [myyscript.sh](http://myyscript.sh/)”
+
+step8: now copy the file to /var/spool/bandit24/foo using the command “
+
+cp [myyscript.sh](http://myyscript.sh/) /var/spool/bandit24_pass.sh/foo”
+
+step9: cat pw.txt to get the pw.
