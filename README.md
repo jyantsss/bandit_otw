@@ -155,3 +155,20 @@ step2:  use find command to find the file with given criteria
 
 step3:  many files with permission denied or no such file will appear except one with .password
 
+## Level 7-8 login
+
+**Commands** **Used**:  ls, grep
+
+**Password**: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+**New Command Learned**: 
+
+grep “millionth” data.txt
+
+
+
+**Process**:  
+
+step1:  ls
+
+step2:  use grep command to find the data in line which contains the word millionth
