@@ -637,3 +637,18 @@ step9: use the command “:set shell?” to know in which shell you are.
 step10: “:set shell=/bin/bash” to go to bandit 26
 
 step11: run” :shell” command to enter bandit26.
+# Level 26-27
+
+## password:
+
+upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
+
+## Process:
+
+step1: ls
+
+step2: ./bandit27-do 
+
+step3: now run command as bandit user 27 “
+
+./bandit27-do cat /etc/bandit_pass/bandit27” to get the pw.
